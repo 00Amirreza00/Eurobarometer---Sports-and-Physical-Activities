@@ -4,7 +4,7 @@
 ![Analysis Type: Clustering](https://img.shields.io/badge/Analysis-Clustering-blue)
 
 ## 📝 Description
-This project provides a contemporary cluster analysis of sports participation across European nations. Inspired by Van Tuyckom's "Six sporting worlds," this study updates the research using data from the **Eurobarometer 97.3 survey** (April-May 2022). It processes data from 26,569 individuals across 27 EU member states to categorize nations into distinct sporting profiles based on organizational context and participation intensity.
+This project provides a contemporary cluster analysis of sports participation across European nations. Inspired by Van Tuyckom's "Six sporting worlds," this study updates the research using data from the **Eurobarometer 97.3 survey** (April-May 2022). It processes data from 26,569 individuals across 27 EU member states to categorize nations into distinct sporting profiles based on organizational context and participation intensity. The new data shows a change in the "sports worlds" in a way that there are now "five sporting worlds".
 
 ## 📑 Table of Contents
 - [Description](#-description)
