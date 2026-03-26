@@ -1,9 +1,74 @@
-# Eurobarometer---Sports-and-Physical-Activities
-The main idea of this project came from this article:
-Van Tuyckom, C. Six sporting worlds. A cluster analysis of sports participation in the EU-25. Qual Quant 47, 441–453 (2013). https://doi.org/10.1007/s11135-011-9528-8
+# ⚽ Eurobarometer: Sports and Physical Activities Analysis
 
-The aim of the project was to identify clusters of European nations grouped by sports participation outcomes (organizational context and intensity of sports participation), in order to provide sensible groupings for international comparisons. In the original article, the sport participation data were distracted from the 2004 Eurobarometer survey which is Standard European Trend Questions and Sport, while I tried to update the results based on the latest Eurobarometer survey which was Eurobarometer 97.3 by that time. In the survey, 26569 individuals were questioned from 27 European members between April and May 2022. The respondents were 15 years and older. The data contains 328 variables and it has been stored as categorical data. So, I had to deal with categorical data.  
+![Language: Jupyter Notebook](https://img.shields.io/badge/Language-Jupyter%20Notebook-orange)
+![Analysis Type: Clustering](https://img.shields.io/badge/Analysis-Clustering-blue)
 
-In first, I performed EDA, Chi-square test and ANOVA to understand the relations underly between features. Then, I prepared the data for applying hierarchical clustering and K-means++ clustering. I clustered nations based on sports participation outcomes, like in the original article, and physical participation outcomes. The results show that we can consider nations as 5 different clusters: average organized countries, average non-organized countries, active non-organized countries, average multi-context countries, and very active countries.
+## 📝 Description
+This project provides a contemporary cluster analysis of sports participation across European nations. Inspired by Van Tuyckom's "Six sporting worlds," this study updates the research using data from the **Eurobarometer 97.3 survey** (April-May 2022). It processes data from 26,569 individuals across 27 EU member states to categorize nations into distinct sporting profiles based on organizational context and participation intensity.
 
+## 📑 Table of Contents
+- [Description](#-description)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
+- [License](#-license)
 
+## ✨ Features
+- 📊 **Exploratory Data Analysis (EDA):** Comprehensive analysis of 328 variables from the Eurobarometer 97.3 dataset.
+- 🔍 **Statistical Validation:** Utilization of Chi-square tests and ANOVA to evaluate relationships between demographic and sporting features.
+- 🧠 **Advanced Clustering:** Implementation of Hierarchical Clustering and K-means++ for nation segmentation.
+- 🌍 **International Comparison:** Categorizes nations into 5 distinct groups: 
+  - Average organized countries
+  - Average non-organized countries
+  - Active non-organized countries
+  - Average multi-context countries
+  - Very active countries
+
+## 💻 Tech Stack
+- **Languages:** Python (Jupyter Notebook)
+- **Statistical Techniques:** Chi-square Test, ANOVA, K-means++, Hierarchical Clustering
+- **Domain:** Sociology / Sports Data Science
+
+## 🚀 Installation
+This project runs within a Jupyter Notebook environment. To set up your local environment:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/00Amirreza00/Eurobarometer---Sports-and-Physical-Activities.git
+   ```
+2. Install the necessary dependencies (ensure you have Jupyter installed):
+   ```bash
+   pip install pandas numpy scikit-learn scipy matplotlib seaborn
+   ```
+
+## 📖 Usage
+To replicate the analysis or explore the data:
+1. Open the `main.ipynb` file in Jupyter Lab or Jupyter Notebook.
+2. Ensure the raw Eurobarometer 97.3 dataset is placed in the appropriate directory.
+3. Run the cells sequentially to perform the pre-processing, EDA, and clustering algorithm execution.
+
+## 📁 Project Structure
+```text
+├── main.ipynb      # Main analysis notebook containing data processing and clustering
+└── README.md       # Project documentation
+```
+
+## 🤝 Contributing
+Contributions are welcome! Please feel free to open an issue or submit a pull request if you find ways to improve the clustering accuracy or perform additional statistical analysis on the survey data.
+
+## 📜 License
+This project is currently provided without a specified license. 
+
+## 🔗 Important Links
+- [Van Tuyckom Article Reference](https://doi.org/10.1007/s11135-011-9528-8)
+
+---
+**Footer:**
+Eurobarometer---Sports-and-Physical-Activities | [Repository URL](https://github.com/00Amirreza00/Eurobarometer---Sports-and-Physical-Activities) | Author: 00Amirreza00
+*If you find this project useful, please consider giving it a star!* ⭐
+
+---
+**<p align="center">Generated by [ReadmeCodeGen](https://www.readmecodegen.com/)</p>**
